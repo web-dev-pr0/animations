@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontaesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>Animations</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <h1>RocketS</h1>
+      <ul>
+        <li><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#">Contact</a></li>
+        <li><a class="nav-link" href="#">About</a></li>
+        <li><a class="nav-link" href="#">Services</a></li>
+      </ul>
+    </nav>
+    <section class="hero-section">
+      <div class="first-hero-container">
+        <h1>
+          <span class="ruber-band-anim">W</span
+          ><span class="ruber-band-anim">e</span
+          ><span class="ruber-band-anim">l</span
+          ><span class="ruber-band-anim">c</span
+          ><span class="ruber-band-anim">o</span
+          ><span class="ruber-band-anim">m</span
+          ><span class="ruber-band-anim">e </span
+          ><span class="ruber-band-anim">T</span
+          ><span class="ruber-band-anim">o </span
+          ><span class="ruber-band-anim">R</span
+          ><span class="ruber-band-anim">o</span
+          ><span class="ruber-band-anim">c</span
+          ><span class="ruber-band-anim">k</span
+          ><span class="ruber-band-anim">e</span
+          ><span class="ruber-band-anim">t</span
+          ><span class="ruber-band-anim">S</span>
+        </h1>
+        <h2>Experience Limitless Exploration</h2>
+        <p>
+          At RocketS, we redefine the possibilities of space travel. From
+          cutting-edge rocketry technology to innovative propulsion systems, our
+          mission is to propel humanity into the vast unknown. Whether you're an
+          aspiring astronaut, a space enthusiast, or a technological pioneer,
+          RocketS is your launchpad to the extraordinary.
+        </p>
+      </div>
+      <div class="second-hero-container">
+        <img src="images/rocket-svgrepo-com.svg" class="hero-image" />
+      </div>
+    </section>
+
+    <section class="cards-section animate__animated animate__bounce">
+      <h1>
+        Explore The Universe!<i class="fa-solid fa-shuttle-space fa-spin"></i>
+      </h1>
+      <div class="first-card-container">
+        <h1>Explore the Cosmos with RocketS</h1>
+        <p>
+          "Discover a universe of possibilities with RocketS. Our advanced
+          technologies propel exploration beyond limits, offering an
+          extraordinary journey into the cosmos. Embark on missions that
+          redefine space exploration, as RocketS leads you to the stars and
+          beyond.
+        </p>
+      </div>
+      <div class="images-container">
+        <div style="display: flex; flex-direction: column; gap: 5px">
+          <img src="images/galaxy.jpg" loading="lazy" />
+          <img src="images/moon-earth.jpg" loading="lazy" />
+        </div>
+        <img src="images/northern-lights.jpg" loading="lazy" />
+      </div>
+    </section>
+    <footer style="display: flex; justify-content: center; align-items: center; padding: 3em;">
+      <p>2023&copy; RocketS All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
